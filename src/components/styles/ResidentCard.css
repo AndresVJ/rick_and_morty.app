@@ -1,0 +1,72 @@
+.resident{
+    width: 100%;
+    max-width: 15em;
+    border-radius: 0.8em;
+    overflow: hidden;
+    background-color: hsl(186, 59%, 13%);;
+    position: relative;
+    color: white;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.resident:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 1.5em #0005;
+}
+.resident_status{
+   position: absolute;
+   top: 10%;
+   background-color: hsl(186, 59%, 13%);
+   width: 40%;
+   display: flex;
+   gap: 0.8em;
+   align-items: center;
+   padding: 0.4em 0.6em;
+   border-radius: 0 0.6em 0.6em 0 ;
+}
+.resident-status_circle{
+    width: 18px;
+    height: 18px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: gray;
+    }
+    
+
+   
+.Dead{
+background-color: rgb(180, 31, 31);
+}
+.Alive{
+background-color: rgb(80, 209, 80);
+}
+.resident-status_value{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-left: 25px;
+}
+.resident_body{
+    padding: 0.8em 1em 2em;
+}
+.resident_name{
+    text-align: center;
+}
+.resident_separator{
+margin-bottom: 0.8em;
+margin-top: 0.8em;
+border-color: #7777;
+}
+.resident_stats{
+    display: grid;
+    gap: 0.6em;
+}
+.resident_stat_item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.resident_stat_label{
+    font-size: 0.9em;
+    color: #999;
+    padding-left: 1em;
+    font-weight: 300;
+}

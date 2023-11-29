@@ -1,0 +1,53 @@
+.app{
+  background-color: #084851;
+  min-height: 100vh;
+}
+.head{
+  width:  1,440px;
+ height: 200px;
+ display: block;
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+.head_image{
+  width:  1,440px;
+ height: 200px;
+}
+.small-img {
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 350px;
+ height: auto;
+ transform: translate(-50%, -50%);
+ }
+
+.app_form{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  margin: 20px 0;
+ padding: 0;
+}
+.app_input{
+  border: none;
+  padding: 0.4em 1em;
+  border-radius: 0.5em 0 0 0.5em;
+}
+.app_btn{
+  display: block;
+  border: none;
+  width: 7em;
+  background-color: rgb(30, 108, 30);
+  padding: 0.4em;
+  border-radius:0 0.5em 0.5em 0  ;
+  color: white;
+  font-weight: 700;
+}
+.app_card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
